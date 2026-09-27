@@ -1,0 +1,34 @@
+# Virtual environment
+.venv/
+
+# Environment variables / secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# OS
+.DS_Store
+
+# Local databases and vector store
+*.db
+*.rdb
+qdrant_data/
+
+# Archives
+*.zip
